@@ -22,7 +22,7 @@ for i in xrange( 0, num_reviews ):
         num_positive = num_positive +1
     else:
         num_negative = num_negative +1
-        if "amazing" in review:
+        if "amazing." in review:
               lista.append(train["review"][i])
               cantidadAmazing += 1
 
